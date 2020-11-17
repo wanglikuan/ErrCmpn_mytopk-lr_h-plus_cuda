@@ -335,7 +335,7 @@ def run(workers, models, save_path, train_data_list, test_data, iterations_epoch
 
     # store (train loss, energy, iterations)
     # naming rules: title + model_name + number_of_workers
-    trainloss_file = './mytopk' \
+    trainloss_file = './mytopk_h-plus' \
         + args.title \
         + '_' + args.method \
         + '_' + args.model \
